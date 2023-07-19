@@ -106,6 +106,11 @@ p{
     border-radius: 5rem;
 }
 
+.btn-continuar:hover{
+    color: #ffffff;
+    background-color:  hsl(241, 81%, 54%)!important;
+}
+
 /* RESPONSIVE */
 
 /* X-Large devices (large desktops, less than 1400px) */
