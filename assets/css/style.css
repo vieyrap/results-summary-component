@@ -1,0 +1,155 @@
+@font-face{
+    font-family: Hanken;
+    src: url('../fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+ *{
+    font-family: "Hanken";
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    font-size: 18px;
+}
+
+/* ESTILOS PROPIOS */
+.text-lavender{
+    color:hsl(241, 100%, 89%);
+}
+
+.text-gray{
+    color:hsl(270, 5%, 60%);
+}
+
+.text-dark{
+    color: hsl(224, 30%, 27%);
+}
+
+.row-container{
+    width: 65%;
+    margin: 5% auto;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 20px -10px #d0d3f5;
+}
+
+.results-container{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 1.5rem;
+    margin: 0;
+    padding: 2rem 3.5rem;
+}
+
+.score{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    width: 80%;
+    padding: 2.5rem;
+}
+
+.score-results{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.summary-container{
+    color: hsl(224, 30%, 27%);
+    margin: 0;
+}
+
+.summary-item{
+    font-size: 20px;
+    font-weight: 500;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%,8%);
+}
+
+
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%,8%);
+
+}
+
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%,8%);
+
+}
+
+.visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 8%);
+
+}
+
+.btn-continuar{
+    color: #ffffff;
+    background-color: hsl(224, 30%, 27%);
+    inline-size: 86%;
+    block-size: 55px;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 5rem;
+}
+
+/* RESPONSIVE */
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .row-container{
+        width: 80%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .row-container{
+        width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .container{
+        max-width: 100% !important;
+    }
+    
+    .row-container{
+        margin: 0;
+    }
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container{
+        max-width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
